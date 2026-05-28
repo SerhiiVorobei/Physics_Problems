@@ -1,67 +1,36 @@
-# Solution 01 — Series and Parallel Circuit
+# Section 1 — Series and Parallel Circuit
 
-## Series Connection
+## Given
 
-Given:
-- \(R_1 = 15\,\Omega\)
-- \(R_2 = 30\,\Omega\)
-- \(R_3 = 50\,\Omega\)
-- \(V = 12\,\text{V}\)
-
-Equivalent resistance:
-
-
-\[
-R_{\text{series}} = 15 + 30 + 50 = 95\,\Omega
-\]
-
-
-
-Current:
-
-
-\[
-I_{\text{series}} = \frac{12}{95} \approx 0.126\,\text{A}
-\]
-
-
+R1 = 15 Ω  
+R2 = 30 Ω  
+R3 = 50 Ω  
+V = 12 V  
 
 ---
 
-## Parallel Connection
+## Series connection
 
-Equivalent resistance:
+R_series = R1 + R2 + R3  
+R_series = 15 + 30 + 50 = 95 Ω  
 
-
-\[
-\frac{1}{R_{\text{parallel}}}
-= \frac{1}{15} + \frac{1}{30} + \frac{1}{50}
-= \frac{3}{25}
-\]
-
-
-
-
-
-\[
-R_{\text{parallel}} = \frac{25}{3} \approx 8.33\,\Omega
-\]
-
-
-
-Current:
-
-
-\[
-I_{\text{parallel}} = \frac{12}{8.33} = 1.44\,\text{A}
-\]
-
-
+I = V / R_series  
+I = 12 / 95 ≈ 0.126 A  
 
 ---
 
-## Conclusion
+## Parallel connection
 
-Series: \(R = 95\,\Omega,\; I \approx 0.126\,\text{A}\)  
-Parallel: \(R \approx 8.33\,\Omega,\; I = 1.44\,\text{A}\)
+1 / R_parallel = 1/15 + 1/30 + 1/50  
+
+1/15 = 10/150  
+1/30 = 5/150  
+1/50 = 3/150  
+
+1 / R_parallel = 18/150 = 3/25  
+
+R_parallel = 25/3 ≈ 8.33 Ω  
+
+I = V / R_parallel  
+I = 12 / (25/3) = 36/25 = 1.44 A  
 
