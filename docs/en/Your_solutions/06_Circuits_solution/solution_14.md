@@ -1,4 +1,4 @@
-# Section 6.14 — RLC Circuit (Detailed Derivation)
+# Section 14 — RLC Circuit (Detailed Derivation)
 
 ## Circuit components
 We consider a series RLC circuit with:
